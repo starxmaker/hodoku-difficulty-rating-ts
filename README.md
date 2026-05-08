@@ -6,6 +6,10 @@ Given an 81-character puzzle string it returns the difficulty score and band tha
 
 Please consider that it is far slower than the original Java version. Use this version only if you need JS support.
 
+## Deprecation notice
+
+Development has stopped for this partial port. However, a new version powered by TeaVM JS transpilation can be found [here](https://github.com/starxmaker/Hodoku). It is much faster than this port and parity is the same, it includes generation, step finding, and additional QoL features.
+
 ## Difficulty bands
 
 These values are maximum scores, not exclusive score ranges. A puzzle can still be rated above the score-only ceiling if it uses a technique whose minimum difficulty is higher. For example, a `MEDIUM` puzzle can have an `EASY` score.
